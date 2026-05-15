@@ -3,7 +3,7 @@
   "slug": "ctgov-risk-adjusted-hiddenness",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-risk-adjusted-hiddenness",
+  "path": "C:\\Projects\\ctgov-analyses/ctgov-risk-adjusted-hiddenness",
   "type": "methods",
   "primary_estimand": "Excess missing-results stock over model-expected missing-results counts among eligible older CT.gov studies",
   "summary": "A standalone E156 project on which sponsor classes, geographies, and large sponsors remain worse than expected after adjusting for visible study mix.",
@@ -48,10 +48,11 @@
     "validation": "FULL REGISTRY RUN"
   },
   "affiliation": "Tahir Heart Institute",
-  "email": "author@example.com",
+  "email": "mahmood.ahmad2@nhs.net",
   "references": [
     "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
     "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
     "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
-  ]
+  ],
+  "submitted": false
 }

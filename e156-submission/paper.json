@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Risk-Adjusted Hiddenness",
+  "slug": "ctgov-risk-adjusted-hiddenness",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which CT.gov portfolios remain quieter than expected after adjusting for study mix instead of comparing raw rates alone? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. We fit logistic models for missing results and ghost protocols using phase, purpose, allocation, status, enrollment, arm count, intervention count, geography scale, outcome density, and study age, excluding sponsor and geography identities from adjustment. After adjustment, No-US portfolios still carried 16,659 excess no-results studies, while OTHER held the largest sponsor-class excess stock at 3,652 and OTHER_GOV the worst excess rate at 17.1 percentage points. Industry fell below expectation on no-results by 3,314 studies yet above expectation on ghost protocols by 3,051, suggesting residual hiddenness concentrates in fully invisible studies. Study mix therefore explains part of the backlog, but large sponsor and geography residuals still remain after adjustment. These models use registry-visible design fields and estimate excess hiddenness, not causal blame or legal liability.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which CT.gov portfolios remain quieter than expected after adjusting for study mix instead of comparing raw rates alone?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "We fit logistic models for missing results and ghost protocols using phase, purpose, allocation, status, enrollment, arm count, intervention count, geography scale, outcome density, and study age, excluding sponsor and geography identities from adjustment."
+    },
+    {
+      "role": "Primary result",
+      "text": "After adjustment, No-US portfolios still carried 16,659 excess no-results studies, while OTHER held the largest sponsor-class excess stock at 3,652 and OTHER_GOV the worst excess rate at 17.1 percentage points."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Industry fell below expectation on no-results by 3,314 studies yet above expectation on ghost protocols by 3,051, suggesting residual hiddenness concentrates in fully invisible studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Study mix therefore explains part of the backlog, but large sponsor and geography residuals still remain after adjustment."
+    },
+    {
+      "role": "Boundary",
+      "text": "These models use registry-visible design fields and estimate excess hiddenness, not causal blame or legal liability."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Risk-Adjusted Hiddenness dashboard",
+    "data": "249,507 eligible older closed interventional studies with design-mix adjustment excluding sponsor and geography identities",
+    "code": "https://github.com/mahmood726-cyber/ctgov-risk-adjusted-hiddenness",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Excess missing-results stock over model-expected missing-results counts among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
